@@ -8,7 +8,7 @@ load_dotenv()
 app = Flask(__name__)
 CORS(
     app,
-    origins=["http://localhost:3000", "https:/demo_send_email.onrender.com"],
+    origins=["http://localhost:3000", "https://demo-send-email.onrender.com"],
 )  # Cho phép React gọi API
 
 
